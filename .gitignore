@@ -1,0 +1,31 @@
+# ==========================================
+# ESP-IDF збірка та бінарники
+# ==========================================
+build/
+sdkconfig
+sdkconfig.old
+sdkconfig.ci
+
+# ==========================================
+# IDE та редактори коду
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# CLion / CLangd / JetBrains
+.idea/
+cmake-build-*/
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# ==========================================
+# Системні файли ОС
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
